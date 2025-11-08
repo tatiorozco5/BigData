@@ -1,10 +1,13 @@
 # Actividad 1
 
 **Autores**
+
 Tatiana Orozco Alzate
 
 **Materia:** Big Data
+
 **Tutor:** Andres Felipe Callejas
+
 **Institución:** Institución Universitaria Digital de Antioquia
 
 ---
@@ -26,7 +29,9 @@ Electronic, una empresa de comercio electrónico está experimentando altas tasa
 El análisis se centra en las siguientes variables clave del dataset, elegidas por su impacto potencial en el comportamiento de abandono.
 
 **Purchase_Date (Temporal):** Se utiliza para calcular hace cuanto tiempo compró el cliente.
+
 **Customer_ID (Numerico):** Permite agrupar las transacciones y medir la frecuencia de cada cliente.
+
 **Product_Category (Categorico):** Permite identificar que categorias son mas compradas.
 
 ---
