@@ -3,6 +3,7 @@
 **Autores**
 
 *Tatiana Orozco Alzate*
+<br>
 *Santiago Mesa Parra*
 
 **Materia:** *Big Data*
