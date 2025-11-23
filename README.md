@@ -78,6 +78,11 @@ El resultado muestra una pequeña submuestra de los clientes que la empresa ha p
 
 # 🚀 Unidad 3. Evidencia de aprendizaje (EA2). Taller: procesamiento de datos en una infraestructura cloud
 
+# Diseño del esquema que almacenará los datos.
+
+![alt text](docs/Esquema.JPG)
+
+##
 
 # Como levantar un Cluster en Databricks y reiniciar uno existente.
 
