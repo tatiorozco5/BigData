@@ -4,108 +4,65 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="30" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="88" y="66" width="660" height="830" as="geometry"/>
+                <mxCell id="16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="66" y="25" width="678" height="881" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="&lt;b&gt;dim_cliente&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=table;horizontal=1;startSize=26;container=1;recursiveResize=0;treeFolding=1;limitation=0;expand=0;tableGroup=1;tableGroupCounter=1;tableGroupDepth=1;fontSize=12;html=1;collapsible=0;" parent="1" vertex="1">
-                    <mxGeometry x="148" y="146" width="220" height="299" as="geometry"/>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="121" y="53" width="562" height="429" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;&lt;b&gt;&lt;u&gt;Customer_ID&lt;/u&gt;&lt;/b&gt; (PK)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="9" vertex="1">
-                    <mxGeometry y="26" width="220" height="26" as="geometry"/>
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="121" y="503" width="564" height="364" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Age (INT)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="9" vertex="1">
-                    <mxGeometry y="240" width="220" height="26" as="geometry"/>
+                <mxCell id="20" value="&lt;b&gt;dim_cliente&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=table;horizontal=1;startSize=36;container=1;recursiveResize=0;treeFolding=1;limitation=0;expand=0;tableGroup=1;tableGroupCounter=1;tableGroupDepth=1;fontSize=12;html=1;collapsible=0;" vertex="1" parent="1">
+                    <mxGeometry x="258" y="85" width="280" height="374" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Churn (INT)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="9" vertex="1">
-                    <mxGeometry y="277" width="220" height="26" as="geometry"/>
+                <mxCell id="21" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;&lt;b&gt;&lt;u&gt;Customer_ID&lt;/u&gt;&lt;/b&gt; (BIGINT) &lt;i&gt;PK&lt;/i&gt;&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="36" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" value="ecommerce" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="9" vertex="1">
-                    <mxGeometry x="6" y="-27" width="60" height="30" as="geometry"/>
+                <mxCell id="22" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Purchase_Date (TIMESTAMP) &lt;i&gt;Not Null&lt;/i&gt;&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="62" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="&lt;b&gt;Fact_Transaccion&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=table;horizontal=1;startSize=26;container=1;recursiveResize=0;treeFolding=1;limitation=0;expand=0;tableGroup=1;tableGroupCounter=1;tableGroupDepth=1;fontSize=12;html=1;collapsible=0;" parent="1" vertex="1">
-                    <mxGeometry x="448" y="146" width="240" height="234" as="geometry"/>
+                <mxCell id="23" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Product_Category (STRING)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="88" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;&lt;b&gt;&lt;u&gt;Transaction_ID&lt;/u&gt;&lt;/b&gt; (PK)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="15" vertex="1">
-                    <mxGeometry y="26" width="240" height="26" as="geometry"/>
+                <mxCell id="24" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Product_Price (DECIMAL 10,2)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="114" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;&lt;b&gt;Customer_ID&lt;/b&gt; (FK)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="15" vertex="1">
-                    <mxGeometry y="52" width="240" height="26" as="geometry"/>
+                <mxCell id="25" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Quantity (BIGINT)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="140" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Purchase_Date (DATE)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="15" vertex="1">
-                    <mxGeometry y="78" width="240" height="26" as="geometry"/>
+                <mxCell id="26" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Total_Purchase_Amount (DECIMAL 10,2)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="166" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Product_Category&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="15" vertex="1">
-                    <mxGeometry y="104" width="240" height="26" as="geometry"/>
+                <mxCell id="27" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Payment_Method (STRING)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="192" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Product_Price (DECIMAL)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="15" vertex="1">
-                    <mxGeometry y="130" width="240" height="26" as="geometry"/>
+                <mxCell id="28" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Customer_Age (INT) &lt;i&gt;(Original: Customer Age)&lt;/i&gt;&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="218" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Quantity (INT)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="15" vertex="1">
-                    <mxGeometry y="156" width="240" height="26" as="geometry"/>
+                <mxCell id="29" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Returns (DOUBLE)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="244" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Total_Purchase_Amount (DECIMAL)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="15" vertex="1">
-                    <mxGeometry y="182" width="240" height="26" as="geometry"/>
+                <mxCell id="30" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Customer_Name (STRING)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="270" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Returns (BOOLEAN)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="15" vertex="1">
-                    <mxGeometry y="208" width="240" height="26" as="geometry"/>
+                <mxCell id="31" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Age (INT) &lt;i&gt;(Duplicado)&lt;/i&gt;&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="296" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="" style="endArrow=none;html=1;entryDx=0;entryDy=0;entryPerimeter=0;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Helvetica;endFill=0;fontSize=12;" parent="1" source="9" target="15" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="368" y="224" as="sourcePoint"/>
-                        <mxPoint x="448" y="224" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="32" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Gender (STRING)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="322" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="24" vertex="1" connectable="0">
-                    <mxGeometry x="-1" y="-1" relative="1" as="geometry">
-                        <mxPoint x="-11" y="-8" as="offset"/>
-                    </mxGeometry>
+                <mxCell id="33" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Churn (INT - 0/1)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="20">
+                    <mxGeometry y="348" width="280" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="24" vertex="1" connectable="0">
-                    <mxGeometry x="1" y="-1" relative="1" as="geometry">
-                        <mxPoint x="14" y="-8" as="offset"/>
-                    </mxGeometry>
+                <mxCell id="34" value="Metastore: E-commerce" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="162" y="2" width="241" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="&lt;div&gt;tiene / realiza&lt;/div&gt;&lt;div&gt;(1:N)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="368" y="199" width="80" height="40" as="geometry"/>
+                <mxCell id="35" value="bigdata" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="126" y="28" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-                    <mxGeometry x="128" y="119" width="580" height="337" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Gender (STRING)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" parent="31" vertex="1">
-                    <mxGeometry x="20" y="286" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="42" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Customer_Name (STRING)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" vertex="1" parent="31">
-                    <mxGeometry x="20" y="247" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="43" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Customer_Age (INT)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" vertex="1" parent="31">
-                    <mxGeometry x="20" y="227" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="46" value="Quantity (BIGINT)" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" vertex="1" parent="31">
-                    <mxGeometry x="23" y="160" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="47" value="Product_Price (DECIMAL)" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" vertex="1" parent="31">
-                    <mxGeometry x="23" y="139" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" value="Purchase_Date (TIMESTAMP)" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" vertex="1" parent="31">
-                    <mxGeometry x="23" y="85" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-                    <mxGeometry x="128" y="496" width="580" height="340" as="geometry"/>
-                </mxCell>
-                <mxCell id="33" value="Metastore: E-commerce" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="168" y="36" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="34" value="bigdata" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="141" y="85" width="60" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="44" value="&lt;p style=&quot;margin:0px;margin-left:4px;text-align:left;&quot;&gt;Payment_Method (STRING)&lt;/p&gt;" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="148" y="324" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="45" value="Total_Purchase_Amount (DECIMAL)" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="152" y="302" width="220" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="48" value="Producto_Category (STRING)" style="label;borderWidth=1;html=1;resizable=0;align=left;verticalAlign=middle;spacingLeft=2;fontStyle=0;overflow=hidden;whiteSpace=wrap;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="152" y="234" width="220" height="26" as="geometry"/>
+                <mxCell id="36" value="ecommerce" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="139" y="55" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
