@@ -163,5 +163,49 @@ Databricks recreará el clúster con el mismo ID, la misma configuración y volv
 
 # 📌 Consultas Select y Group By
 ![alt text](docs/Group.JPG)
+#
+
+# Ventajas y desventajas: SQL vs Spark
+
+### 🗄️ SQL (Structured Query Language)
+
+*El lenguaje universal de los datos.*
+
+**Ventajas:**
+
+**Facilidad de Uso:** Es el estándar de la industria, cualquier analista de datos, ingeniero o científico de datos conoce la sintaxis básica (SELECT, FROM, WHERE).
+
+**Expresividad Declarativa:** Le dices a la base de datos qué quieres, no cómo obtenerlo. El optimizador del motor se encarga del plan de ejecución.
+
+**Integración con BI:** Es el lenguaje nativo de herramientas como Power BI, Tableau, Looker y Excel.
+
+**Desventajas:**
+
+**Rigidez en Pipelines Complejos:** Hacer ETLs complejos solo con SQL a menudo resulta en procedimientos almacenados gigantes, difíciles de mantener y depurar.
+
+**Limitaciones Lógicas:** Iteraciones (bucles), manejo de errores complejos o transformaciones de datos no estructurados son muy difíciles de implementar.
+
+### ⚡ Apache Spark (PySpark)
+
+*El motor para procesamiento masivo y flexible.*
+
+**Ventajas:**
+
+**Escalabilidad Horizontal:** Diseñado para procesar Petabytes de datos distribuidos en clústeres. Si necesitas más potencia, agregas más nodos.
+
+**APIs Ricas y Programáticas:** Permite usar Python (o Scala/Java). Puedes mezclar SQL con lógica imperativa, usar bucles, clases y librerías externas de Python.
+
+**Capacidades Avanzadas:** Incluye librerías nativas para Machine Learning (MLlib), Streaming y Grafos.
+
+**UDFs (User Defined Functions):** Puedes escribir funciones complejas en Python y aplicarlas a tus datos de forma distribuida.
+
+**Desventajas:**
+
+**Curva de Aprendizaje:** Requiere conocimientos de programación y entender conceptos de computación distribuida (particiones, shuffling, memoria, lazy evaluation).
+
+**Overhead:** Para conjuntos de datos pequeños (menos de unos cuantos GBs), Spark puede ser más lento que una base de datos tradicional debido al tiempo de arranque del clúster y la gestión de tareas.
+
+![alt text](docs/Comparativa.JPG)
+
 
 
