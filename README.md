@@ -74,7 +74,7 @@ El resultado muestra una pequeña submuestra de los clientes que la empresa ha p
 
 ![alt text](docs/SELECT.JPG)
 
-##
+#
 
 # 🚀 Unidad 3. Evidencia de aprendizaje (EA2). Taller: procesamiento de datos en una infraestructura cloud
 
@@ -82,7 +82,15 @@ El resultado muestra una pequeña submuestra de los clientes que la empresa ha p
 
 ![alt text](docs/Esquema.JPG)
 
-##
+#
+
+# Catalogo, Esquema y Tablas
+
+![alt text](docs/Catalogo.JPG)
+
+![alt text](docs/Tablas.JPG)
+
+#
 
 # Como levantar un Cluster en Databricks y reiniciar uno existente.
 
@@ -137,5 +145,23 @@ Si un clúster ya existe y se apagó automáticamente (terminó) o fue detenido 
 - Haz clic en el icono de "Play" (Iniciar) o el botón "Reiniciar" (Restart) junto al nombre del clúster.
 
 Databricks recreará el clúster con el mismo ID, la misma configuración y volverá a instalar las librerías necesarias.
+
+#
+
+# 📌 Ingesta, Creación de Tabla
+
+![alt text](docs/Ingesta.JPG)
+![alt text](docs/Show.JPG)
+![alt text](docs/Describe.JPG)
+
+#
+# 📌 Select, Select con Filtro
+
+![alt text](docs/Select1.JPG)
+![alt text](docs/Select2.JPG)
+#
+
+# 📌 Consultas Select y Group By
+![alt text](docs/Group.JPG)
 
 
